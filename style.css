@@ -1,0 +1,60 @@
+img { 2
+    width: 180px; 
+    height: 200px;
+    padding: 20px;
+    
+    }
+
+
+h1 {
+    color: crimson;
+    background-color: beige;
+    line: height 1px;
+    
+}
+
+p1{ 
+     padding: 20px ;
+    text-align: center;
+    color: rgb(17, 1, 1);
+    font-size:large
+        
+
+}
+
+li {
+    
+    list-style: disc;
+    background-color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    
+}
+
+ol {
+    color: rgb(141, 25, 5);
+    background-color: beige;
+}
+
+tr {
+    color: rgb(31, 5, 55);
+    
+}
+tr :nth-child(1){
+    color-scheme: rgb(0, 0, 0);
+    border-color: rgb(184, 38, 86);
+   padding-top: 20px;
+   padding-left: 2px;
+   padding: 10px;
+   color: rgb(193, 12, 88);
+
+}
+
+tr :nth-child(4n+1){
+    background-color: blanchedalmond;
+}
+th { font-size: large;
+    border-style: unset;
+    
+}
