@@ -1,0 +1,15 @@
+   0 cd/home
+   1 mkdir home
+   2 cd /home
+   3 touch chmodFile.txt
+   4 cd /home/chmodFile.txt
+   5 date > /home/chmodFile.txt
+   6 ls -la
+   7 chmod 740
+   8 ls -la
+   9 chmod 740 chmodFile.txt
+  10 ls -la
+  11 history > /tmp/history.txt
+  12 cd /home
+  13 history /tmp/history.txt
+  14 history > /tmp/history.txt
